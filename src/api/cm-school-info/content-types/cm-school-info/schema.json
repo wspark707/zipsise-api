@@ -1,0 +1,92 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_school_infos",
+  "info": {
+    "singularName": "cm-school-info",
+    "pluralName": "cm-school-infos",
+    "displayName": "cm_school_info"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sch_sd_schul_code": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "sch_atpt_ofcdc_sc_code": {
+      "type": "string"
+    },
+    "sch_atpt_ofcdc_sc_nm": {
+      "type": "string"
+    },
+    "sch_schul_nm": {
+      "type": "string"
+    },
+    "sch_eng_schul_nm": {
+      "type": "string"
+    },
+    "sch_schul_knd_sc_nm": {
+      "type": "string"
+    },
+    "sch_lctn_sc_nm": {
+      "type": "string"
+    },
+    "sch_ju_org_nm": {
+      "type": "string"
+    },
+    "sch_fond_sc_nm": {
+      "type": "string"
+    },
+    "sch_org_rdnzc": {
+      "type": "string"
+    },
+    "sch_org_rdnma": {
+      "type": "string"
+    },
+    "sch_org_rdnda": {
+      "type": "string"
+    },
+    "sch_org_telno": {
+      "type": "string"
+    },
+    "sch_hmpg_adres": {
+      "type": "string"
+    },
+    "sch_coedu_sc_nm": {
+      "type": "string"
+    },
+    "sch_org_faxno": {
+      "type": "string"
+    },
+    "sch_hs_sc_nm": {
+      "type": "string"
+    },
+    "sch_indst_specl_ccccl_exst_yn": {
+      "type": "string"
+    },
+    "sch_hs_gnrl_busns_sc_nm": {
+      "type": "string"
+    },
+    "sch_spcly_purps_hs_ord_nm": {
+      "type": "string"
+    },
+    "sch_ene_bfe_sehf_sc_nm": {
+      "type": "string"
+    },
+    "sch_dght_sc_nm": {
+      "type": "string"
+    },
+    "sch_fond_ymd": {
+      "type": "date"
+    },
+    "sch_foas_memrd": {
+      "type": "date"
+    },
+    "sch_load_dtm": {
+      "type": "date"
+    }
+  }
+}

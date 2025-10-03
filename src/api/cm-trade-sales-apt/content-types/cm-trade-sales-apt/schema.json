@@ -1,0 +1,83 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_trade_sales_apts",
+  "info": {
+    "singularName": "cm-trade-sales-apt",
+    "pluralName": "cm-trade-sales-apts",
+    "displayName": "cm_trade_sales_apt"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sales_apt_uniq_code": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "sales_apt_region_code": {
+      "type": "string"
+    },
+    "sales_apt_umd_name": {
+      "type": "string"
+    },
+    "sales_apt_name": {
+      "type": "string"
+    },
+    "sales_apt_jibun": {
+      "type": "string"
+    },
+    "sales_apt_use_area": {
+      "type": "string"
+    },
+    "sales_apt_deal_ymd": {
+      "type": "date"
+    },
+    "sales_apt_deal_amount": {
+      "type": "integer",
+      "default": 0
+    },
+    "sales_apt_floor": {
+      "type": "string"
+    },
+    "sales_apt_build_year": {
+      "type": "string"
+    },
+    "sales_apt_cdeal": {
+      "type": "integer",
+      "default": 0
+    },
+    "sales_apt_cdeal_day": {
+      "type": "date"
+    },
+    "sales_apt_deal_type": {
+      "type": "string"
+    },
+    "sales_apt_estate_agency": {
+      "type": "string"
+    },
+    "sales_apt_regist_date": {
+      "type": "date"
+    },
+    "sales_apt_dong": {
+      "type": "string"
+    },
+    "sales_apt_seller": {
+      "type": "string"
+    },
+    "sales_apt_buyer": {
+      "type": "string"
+    },
+    "sales_apt_landlease": {
+      "type": "integer",
+      "default": 0
+    },
+    "sales_apt_api_called_at": {
+      "type": "datetime"
+    },
+    "sales_apt_api_result": {
+      "type": "text"
+    }
+  }
+}

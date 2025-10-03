@@ -1,0 +1,135 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_pnu_land_standard_prices",
+  "info": {
+    "singularName": "cm-pnu-land-standard-price",
+    "pluralName": "cm-pnu-land-standard-prices",
+    "displayName": "cm_pnu_land_standard_price"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "lsp_pnu": {
+      "type": "string",
+      "required": true
+    },
+    "lsp_ld_code": {
+      "type": "string"
+    },
+    "lsp_ld_code_name": {
+      "type": "string"
+    },
+    "lsp_regstr_se_code": {
+      "type": "string"
+    },
+    "lsp_regstr_se_code_name": {
+      "type": "string"
+    },
+    "lsp_mnnm_slno": {
+      "type": "string"
+    },
+    "lsp_std_land_sn": {
+      "type": "string"
+    },
+    "lsp_stdr_year": {
+      "type": "string",
+      "required": true
+    },
+    "lsp_bsns_dstrc_ar": {
+      "type": "string"
+    },
+    "lsp_lndcgr_code": {
+      "type": "string"
+    },
+    "lsp_lndcgr_code_name": {
+      "type": "string"
+    },
+    "lsp_lndpcl_ar": {
+      "type": "string"
+    },
+    "lsp_prpos_area1": {
+      "type": "string"
+    },
+    "lsp_prpos_area_name1": {
+      "type": "string"
+    },
+    "lsp_prpos_area2": {
+      "type": "string"
+    },
+    "lsp_prpos_area_name2": {
+      "type": "string"
+    },
+    "lsp_prpos_dstrc1": {
+      "type": "string"
+    },
+    "lsp_prpos_dstrc_name1": {
+      "type": "string"
+    },
+    "lsp_prpos_dstrc2": {
+      "type": "string"
+    },
+    "lsp_prpos_dstrc_name2": {
+      "type": "string"
+    },
+    "lsp_cnflc_rt": {
+      "type": "string"
+    },
+    "lsp_lad_use_sittn": {
+      "type": "string"
+    },
+    "lsp_lad_use_sittn_name": {
+      "type": "string"
+    },
+    "lsp_tpgrph_hg_code": {
+      "type": "string"
+    },
+    "lsp_tpgrph_hg_code_name": {
+      "type": "string"
+    },
+    "lsp_tpgrph_frm_code": {
+      "type": "string"
+    },
+    "lsp_tpgrph_frm_code_name": {
+      "type": "string"
+    },
+    "lsp_road_side_code": {
+      "type": "string"
+    },
+    "lsp_road_side_code_name": {
+      "type": "string"
+    },
+    "lsp_road_dstnc_code": {
+      "type": "string"
+    },
+    "lsp_road_dstnc_code_name": {
+      "type": "string"
+    },
+    "lsp_pblntf_pclnd": {
+      "type": "string"
+    },
+    "lsp_stdland_posesn_se_code": {
+      "type": "string"
+    },
+    "lsp_stdland_posesn_se_code_name": {
+      "type": "string"
+    },
+    "lsp_posesn_stle": {
+      "type": "string"
+    },
+    "lsp_posesn_stle_name": {
+      "type": "string"
+    },
+    "lsp_last_updt_dt": {
+      "type": "date",
+      "required": true
+    },
+    "lsp_api_called_at": {
+      "type": "datetime"
+    },
+    "lsp_api_result": {
+      "type": "text"
+    }
+  }
+}

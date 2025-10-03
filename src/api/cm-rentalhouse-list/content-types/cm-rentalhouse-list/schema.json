@@ -1,0 +1,104 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_rentalhouse_lists",
+  "info": {
+    "singularName": "cm-rentalhouse-list",
+    "pluralName": "cm-rentalhouse-lists",
+    "displayName": "cm_rentalhouse_list"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "rh_uniq_code": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "rh_hsmp_sn": {
+      "type": "string"
+    },
+    "rh_instt_name": {
+      "type": "string"
+    },
+    "rh_brtc_code": {
+      "type": "string"
+    },
+    "rh_brtc_name": {
+      "type": "string"
+    },
+    "rh_signgu_code": {
+      "type": "string"
+    },
+    "rh_signgu_name": {
+      "type": "string"
+    },
+    "rh_hsmp": {
+      "type": "string"
+    },
+    "rh_rn_addr": {
+      "type": "string"
+    },
+    "rh_pnu": {
+      "type": "string"
+    },
+    "rh_compet_date": {
+      "type": "date"
+    },
+    "rh_household_cnt": {
+      "type": "integer"
+    },
+    "rh_supply_type": {
+      "type": "string"
+    },
+    "rh_style": {
+      "type": "string"
+    },
+    "rh_exclusive_area": {
+      "type": "decimal",
+      "default": 0
+    },
+    "rh_common_area": {
+      "type": "decimal",
+      "default": 0
+    },
+    "rh_house_type": {
+      "type": "string"
+    },
+    "rh_heat_method_detail": {
+      "type": "string"
+    },
+    "rh_build_style": {
+      "type": "string"
+    },
+    "rh_elevator": {
+      "type": "string"
+    },
+    "rh_parking": {
+      "type": "integer",
+      "default": 0
+    },
+    "rh_deposit": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "rh_monthly_rent": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "rh_deposit_conversion": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "rh_message": {
+      "type": "text"
+    },
+    "rh_api_called_at": {
+      "type": "datetime"
+    },
+    "rh_api_result": {
+      "type": "text"
+    }
+  }
+}

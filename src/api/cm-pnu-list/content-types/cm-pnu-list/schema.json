@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_pnu_lists",
+  "info": {
+    "singularName": "cm-pnu-list",
+    "pluralName": "cm-pnu-lists",
+    "displayName": "cm_pnu_list"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pnu_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "pnu_detail_api_called_at": {
+      "type": "datetime"
+    }
+  }
+}

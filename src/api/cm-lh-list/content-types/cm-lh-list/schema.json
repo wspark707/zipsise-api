@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_lh_lists",
+  "info": {
+    "singularName": "cm-lh-list",
+    "pluralName": "cm-lh-lists",
+    "displayName": "cm_lh_list"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "lh_rnum": {
+      "type": "integer",
+      "required": true,
+      "default": 0,
+      "unique": true
+    },
+    "lh_area_name": {
+      "type": "string"
+    },
+    "lh_tp_code_name": {
+      "type": "string"
+    },
+    "lh_apt_name": {
+      "type": "string"
+    },
+    "lh_total_household_count": {
+      "type": "integer",
+      "default": 0
+    },
+    "lh_exclusive_area": {
+      "type": "decimal",
+      "default": 0
+    },
+    "lh_household_count": {
+      "type": "integer",
+      "default": 0
+    },
+    "lh_deposit": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "lh_monthly_rent": {
+      "type": "integer",
+      "default": 0
+    },
+    "lh_first_movein_ym": {
+      "type": "string"
+    },
+    "lh_api_called_at": {
+      "type": "datetime"
+    },
+    "lh_api_result": {
+      "type": "text"
+    }
+  }
+}

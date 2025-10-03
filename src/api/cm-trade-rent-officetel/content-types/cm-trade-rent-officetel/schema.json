@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_trade_rent_officetels",
+  "info": {
+    "singularName": "cm-trade-rent-officetel",
+    "pluralName": "cm-trade-rent-officetels",
+    "displayName": "cm_trade_rent_officetel"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "rent_officetel_uniq_code": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "rent_officetel_region_code": {
+      "type": "string"
+    },
+    "rent_officetel_umd_name": {
+      "type": "string"
+    },
+    "rent_officetel_name": {
+      "type": "string"
+    },
+    "rent_officetel_jibun": {
+      "type": "string"
+    },
+    "rent_officetel_use_area": {
+      "type": "string"
+    },
+    "rent_officetel_deal_ymd": {
+      "type": "date"
+    },
+    "rent_officetel_deposit": {
+      "type": "integer",
+      "default": 0
+    },
+    "rent_officetel_monthly_rent": {
+      "type": "integer",
+      "default": 0
+    },
+    "rent_officetel_floor": {
+      "type": "string"
+    },
+    "rent_officetel_build_year": {
+      "type": "string"
+    },
+    "rent_officetel_contract_term": {
+      "type": "string"
+    },
+    "rent_officetel_contract_type": {
+      "type": "string"
+    },
+    "rent_officetel_use_right": {
+      "type": "string"
+    },
+    "rent_officetel_pre_deposit": {
+      "type": "string"
+    },
+    "rent_officetel_pre_monthly_rent": {
+      "type": "string"
+    },
+    "rent_officetel_api_called_at": {
+      "type": "datetime"
+    },
+    "rent_officetel_api_result": {
+      "type": "text"
+    }
+  }
+}

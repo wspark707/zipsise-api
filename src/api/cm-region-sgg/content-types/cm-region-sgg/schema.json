@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_region_sggs",
+  "info": {
+    "singularName": "cm-region-sgg",
+    "pluralName": "cm-region-sggs",
+    "displayName": "cm_region_sgg"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sgg_code": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "sgg_name": {
+      "type": "string"
+    },
+    "sido_code": {
+      "type": "string"
+    },
+    "sgg_umd_api_called_at": {
+      "type": "datetime"
+    },
+    "sgg_energy_api_called_at": {
+      "type": "datetime"
+    }
+  }
+}

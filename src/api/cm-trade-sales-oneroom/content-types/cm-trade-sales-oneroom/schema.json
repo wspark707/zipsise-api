@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_trade_sales_onerooms",
+  "info": {
+    "singularName": "cm-trade-sales-oneroom",
+    "pluralName": "cm-trade-sales-onerooms",
+    "displayName": "cm_trade_sales_oneroom"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sales_oneroom_uniq_code": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "sales_oneroom_region_code": {
+      "type": "string"
+    },
+    "sales_oneroom_umd_name": {
+      "type": "string"
+    },
+    "sales_oneroom_house_type": {
+      "type": "string"
+    },
+    "sales_oneroom_jibun": {
+      "type": "string"
+    },
+    "sales_oneroom_total_floor_area": {
+      "type": "string"
+    },
+    "sales_oneroom_plottage_area": {
+      "type": "string"
+    },
+    "sales_oneroom_deal_ymd": {
+      "type": "date"
+    },
+    "sales_oneroom_deal_amount": {
+      "type": "integer",
+      "default": 0
+    },
+    "sales_oneroom_build_year": {
+      "type": "string"
+    },
+    "sales_oneroom_cdeal": {
+      "type": "integer",
+      "default": 0
+    },
+    "sales_oneroom_cdeal_day": {
+      "type": "date"
+    },
+    "sales_oneroom_deal_type": {
+      "type": "string"
+    },
+    "sales_oneroom_estate_agency": {
+      "type": "string"
+    },
+    "sales_oneroom_seller": {
+      "type": "string"
+    },
+    "sales_oneroom_buyer": {
+      "type": "string"
+    },
+    "sales_oneroom_api_called_at": {
+      "type": "datetime"
+    },
+    "sales_oneroom_api_result": {
+      "type": "text"
+    }
+  }
+}

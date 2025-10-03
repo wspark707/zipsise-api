@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_pnu_land_grades",
+  "info": {
+    "singularName": "cm-pnu-land-grade",
+    "pluralName": "cm-pnu-land-grades",
+    "displayName": "cm_pnu_land_grade"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "lgr_pnu": {
+      "type": "string",
+      "required": true
+    },
+    "lgr_li_code": {
+      "type": "string"
+    },
+    "lgr_li_code_name": {
+      "type": "string"
+    },
+    "lgr_mnnm_slno": {
+      "type": "string"
+    },
+    "lgr_regstr_se_code": {
+      "type": "string",
+      "required": true
+    },
+    "lgr_regstr_se_code_name": {
+      "type": "string"
+    },
+    "lgr_lad_grad_change_de": {
+      "type": "date",
+      "required": true
+    },
+    "lgr_lad_grad_se_code": {
+      "type": "string",
+      "required": true
+    },
+    "lgr_lad_grad_se_code_name": {
+      "type": "string"
+    },
+    "lgr_lad_grad": {
+      "type": "string"
+    },
+    "lgr_last_updt_dt": {
+      "type": "date"
+    }
+  }
+}

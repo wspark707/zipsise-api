@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_trade_api_calleds",
+  "info": {
+    "singularName": "cm-trade-api-called",
+    "pluralName": "cm-trade-api-calleds",
+    "displayName": "cm_trade_api_called"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "api_dg_code": {
+      "type": "string",
+      "required": true
+    },
+    "api_dg_ym": {
+      "type": "string",
+      "required": true
+    },
+    "api_sales_apt_called_at": {
+      "type": "datetime"
+    },
+    "api_sales_factory_called_at": {
+      "type": "datetime"
+    },
+    "api_sales_land_called_at": {
+      "type": "datetime"
+    },
+    "api_sales_officetel_called_at": {
+      "type": "datetime"
+    },
+    "api_sales_oneroom_called_at": {
+      "type": "datetime"
+    },
+    "api_sales_store_called_at": {
+      "type": "datetime"
+    },
+    "api_sales_villa_called_at": {
+      "type": "datetime"
+    },
+    "api_rent_apt_called_at": {
+      "type": "datetime"
+    },
+    "api_rent_officetel_called_at": {
+      "type": "datetime"
+    },
+    "api_rent_oneroom_called_at": {
+      "type": "datetime"
+    },
+    "api_rent_villa_called_at": {
+      "type": "datetime"
+    },
+    "api_resale_apt_called_at": {
+      "type": "datetime"
+    }
+  }
+}

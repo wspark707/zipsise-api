@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_trade_rent_villas",
+  "info": {
+    "singularName": "cm-trade-rent-villa",
+    "pluralName": "cm-trade-rent-villas",
+    "displayName": "cm_trade_rent_villa"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "rent_villa_uniq_code": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "rent_villa_region_code": {
+      "type": "string"
+    },
+    "rent_villa_umd_name": {
+      "type": "string"
+    },
+    "rent_villa_name": {
+      "type": "string"
+    },
+    "rent_villa_house_type": {
+      "type": "string"
+    },
+    "rent_villa_jibun": {
+      "type": "string"
+    },
+    "rent_villa_use_area": {
+      "type": "string"
+    },
+    "rent_villa_deal_ymd": {
+      "type": "date"
+    },
+    "rent_villa_deposit": {
+      "type": "integer",
+      "default": 0
+    },
+    "rent_villa_monthly_rent": {
+      "type": "integer",
+      "default": 0
+    },
+    "rent_villa_floor": {
+      "type": "string"
+    },
+    "rent_villa_build_year": {
+      "type": "string"
+    },
+    "rent_villa_contract_term": {
+      "type": "string"
+    },
+    "rent_villa_contract_type": {
+      "type": "string"
+    },
+    "rent_villa_use_right": {
+      "type": "string"
+    },
+    "rent_villa_pre_deposit": {
+      "type": "string"
+    },
+    "rent_villa_pre_monthly_rent": {
+      "type": "string"
+    },
+    "rent_villa_api_called_at": {
+      "type": "datetime"
+    },
+    "rent_villa_api_result": {
+      "type": "text"
+    }
+  }
+}

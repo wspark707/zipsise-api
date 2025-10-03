@@ -1,0 +1,99 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_pnu_land_characteristics",
+  "info": {
+    "singularName": "cm-pnu-land-characteristic",
+    "pluralName": "cm-pnu-land-characteristics",
+    "displayName": "cm_pnu_land_characteristic"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "plc_pnu": {
+      "type": "string",
+      "required": true
+    },
+    "plc_ld_code": {
+      "type": "string"
+    },
+    "plc_ld_code_name": {
+      "type": "string"
+    },
+    "plc_regstr_se_code": {
+      "type": "string"
+    },
+    "plc_regstr_se_code_name": {
+      "type": "string"
+    },
+    "plc_mnnm_slno": {
+      "type": "string"
+    },
+    "plc_lad_sn": {
+      "type": "string"
+    },
+    "plc_stdr_year": {
+      "type": "string",
+      "required": true
+    },
+    "plc_stdr_mt": {
+      "type": "string",
+      "required": true
+    },
+    "plc_lndcgr_code": {
+      "type": "string"
+    },
+    "plc_lndcgr_code_name": {
+      "type": "string"
+    },
+    "plc_lndpcl_ar": {
+      "type": "decimal",
+      "default": 0
+    },
+    "plc_prpos_area1": {
+      "type": "string"
+    },
+    "plc_prpos_area1_name": {
+      "type": "string"
+    },
+    "plc_prpos_area2": {
+      "type": "string"
+    },
+    "plc_prpos_area2_name": {
+      "type": "string"
+    },
+    "plc_lad_use_sittn": {
+      "type": "string"
+    },
+    "plc_lad_use_sittn_name": {
+      "type": "string"
+    },
+    "plc_tpgrph_hg_code": {
+      "type": "string"
+    },
+    "plc_tpgrph_hg_code_name": {
+      "type": "string"
+    },
+    "plc_tpgrph_frm_code": {
+      "type": "string"
+    },
+    "plc_tpgrph_frm_code_name": {
+      "type": "string"
+    },
+    "plc_road_side_code": {
+      "type": "string"
+    },
+    "plc_road_side_code_name": {
+      "type": "string"
+    },
+    "plc_pblntf_pclnd": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "plc_last_updt_dt": {
+      "type": "date",
+      "required": true
+    }
+  }
+}

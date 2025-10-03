@@ -1,0 +1,141 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_pnu_buildings",
+  "info": {
+    "singularName": "cm-pnu-building",
+    "pluralName": "cm-pnu-buildings",
+    "displayName": "cm_pnu_building"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bld_gis_idntf_cno": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "bld_pnu": {
+      "type": "string",
+      "required": true
+    },
+    "bld_ld_code": {
+      "type": "string"
+    },
+    "bld_ld_code_name": {
+      "type": "string"
+    },
+    "bld_regstr_se_code": {
+      "type": "string"
+    },
+    "bld_regstr_se_code_name": {
+      "type": "string"
+    },
+    "bld_mnnm_slno": {
+      "type": "string"
+    },
+    "bld_buld_idntfc_no": {
+      "type": "string"
+    },
+    "bld_agbldg_se_code": {
+      "type": "string"
+    },
+    "bld_agbldg_se_code_name": {
+      "type": "string"
+    },
+    "bld_buld_knd_code": {
+      "type": "string"
+    },
+    "bld_buld_knd_code_name": {
+      "type": "string"
+    },
+    "bld_buld_name": {
+      "type": "string"
+    },
+    "bld_buld_dong_name": {
+      "type": "string"
+    },
+    "bld_buld_totar": {
+      "type": "decimal",
+      "default": 0
+    },
+    "bld_strct_code": {
+      "type": "string"
+    },
+    "bld_strct_code_name": {
+      "type": "string"
+    },
+    "bld_main_prpos_code": {
+      "type": "string"
+    },
+    "bld_main_prpos_code_name": {
+      "type": "string"
+    },
+    "bld_buld_hg": {
+      "type": "string"
+    },
+    "bld_ground_floor_co": {
+      "type": "integer",
+      "default": 0
+    },
+    "bld_undgrnd_floor_co": {
+      "type": "integer",
+      "default": 0
+    },
+    "bld_prmisn_de": {
+      "type": "date"
+    },
+    "bld_use_confm_de": {
+      "type": "date"
+    },
+    "bld_buld_age": {
+      "type": "string"
+    },
+    "bld_agrde_se_code": {
+      "type": "string"
+    },
+    "bld_agrde_se_code_name": {
+      "type": "string"
+    },
+    "bld_agrde5_class_se_code": {
+      "type": "string"
+    },
+    "bld_agrde5_class_se_code_name": {
+      "type": "string"
+    },
+    "bld_last_updt_dt": {
+      "type": "date"
+    },
+    "bld_buld_main_atach_se_code": {
+      "type": "string"
+    },
+    "bld_buld_main_atach_se_code_name": {
+      "type": "string"
+    },
+    "bld_buld_plot_ar": {
+      "type": "string"
+    },
+    "bld_buld_bildng_ar": {
+      "type": "string"
+    },
+    "bld_measrmt_rt": {
+      "type": "string"
+    },
+    "bld_btl_rt": {
+      "type": "string"
+    },
+    "bld_detail_prpos_code": {
+      "type": "string"
+    },
+    "bld_detail_prpos_code_name": {
+      "type": "string"
+    },
+    "bld_buld_prpos_cl_code": {
+      "type": "string"
+    },
+    "bld_buld_prpos_cl_code_name": {
+      "type": "string"
+    }
+  }
+}

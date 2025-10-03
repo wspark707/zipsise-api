@@ -1,0 +1,85 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_trade_sales_stores",
+  "info": {
+    "singularName": "cm-trade-sales-store",
+    "pluralName": "cm-trade-sales-stores",
+    "displayName": "cm_trade_sales_store"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sales_store_uniq_code": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "sales_store_region_code": {
+      "type": "string"
+    },
+    "sales_store_umd_name": {
+      "type": "string"
+    },
+    "sales_store_jibun": {
+      "type": "string"
+    },
+    "sales_store_building_use": {
+      "type": "string"
+    },
+    "sales_store_building_type": {
+      "type": "string"
+    },
+    "sales_store_land_use": {
+      "type": "string"
+    },
+    "sales_store_deal_ymd": {
+      "type": "date"
+    },
+    "sales_store_deal_amount": {
+      "type": "integer",
+      "default": 0
+    },
+    "sales_store_floor": {
+      "type": "string"
+    },
+    "sales_store_build_year": {
+      "type": "string"
+    },
+    "sales_store_cdeal": {
+      "type": "integer",
+      "default": 0
+    },
+    "sales_store_cdeal_day": {
+      "type": "date"
+    },
+    "sales_store_deal_type": {
+      "type": "string"
+    },
+    "sales_store_estate_agency": {
+      "type": "string"
+    },
+    "sales_store_building_area": {
+      "type": "string"
+    },
+    "sales_store_plottage_area": {
+      "type": "string"
+    },
+    "sales_store_share_dealing_type": {
+      "type": "string"
+    },
+    "sales_store_seller": {
+      "type": "string"
+    },
+    "sales_store_buyer": {
+      "type": "string"
+    },
+    "sales_store_api_called_at": {
+      "type": "datetime"
+    },
+    "sales_store_api_result": {
+      "type": "text"
+    }
+  }
+}

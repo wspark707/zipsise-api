@@ -1,0 +1,88 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_apt_energies",
+  "info": {
+    "singularName": "cm-apt-energy",
+    "pluralName": "cm-apt-energies",
+    "displayName": "cm_apt_energy"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aen_apt_code": {
+      "type": "string",
+      "maxLength": 20,
+      "required": true
+    },
+    "aen_ym": {
+      "type": "string",
+      "maxLength": 6,
+      "required": true
+    },
+    "aen_heat": {
+      "type": "integer",
+      "default": 0
+    },
+    "aen_hheat": {
+      "type": "integer",
+      "default": 0
+    },
+    "aen_water_hot": {
+      "type": "integer",
+      "default": 0
+    },
+    "aen_hwater_hot": {
+      "type": "integer",
+      "default": 0
+    },
+    "aen_gas": {
+      "type": "integer",
+      "default": 0
+    },
+    "aen_hgas": {
+      "type": "integer",
+      "default": 0
+    },
+    "aen_elect": {
+      "type": "integer",
+      "default": 0
+    },
+    "aen_helect": {
+      "type": "integer",
+      "default": 0
+    },
+    "aen_water_cool": {
+      "type": "integer",
+      "default": 0
+    },
+    "aen_hwater_cool": {
+      "type": "integer",
+      "default": 0
+    },
+    "aen_avg_heat": {
+      "type": "integer",
+      "default": 0
+    },
+    "aen_avg_water_hot": {
+      "type": "integer",
+      "default": 0
+    },
+    "aen_avg_gas": {
+      "type": "integer",
+      "default": 0
+    },
+    "aen_avg_elect": {
+      "type": "integer",
+      "default": 0
+    },
+    "aen_avg_water_cool": {
+      "type": "integer",
+      "default": 0
+    },
+    "aen_api_called_at": {
+      "type": "datetime"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_pnu_apart_house_prices",
+  "info": {
+    "singularName": "cm-pnu-apart-house-price",
+    "pluralName": "cm-pnu-apart-house-prices",
+    "displayName": "cm_pnu_apart_house_price"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ahp_pnu": {
+      "type": "string",
+      "required": true
+    },
+    "ahp_ld_code": {
+      "type": "string",
+      "required": false
+    },
+    "ahp_ld_code_name": {
+      "type": "string",
+      "required": false
+    },
+    "ahp_regstr_se_code": {
+      "type": "string"
+    },
+    "ahp_regstr_se_code_name": {
+      "type": "string"
+    },
+    "ahp_mnnm_slno": {
+      "type": "string"
+    },
+    "ahp_stdr_year": {
+      "type": "string",
+      "required": true
+    },
+    "ahp_stdr_mt": {
+      "type": "string",
+      "required": true
+    },
+    "ahp_aphus_code": {
+      "type": "string"
+    },
+    "ahp_aphus_se_code": {
+      "type": "string"
+    },
+    "ahp_aphus_se_code_name": {
+      "type": "string"
+    },
+    "ahp_spcl_land_name": {
+      "type": "string"
+    },
+    "ahp_aphus_name": {
+      "type": "string"
+    },
+    "ahp_dong_name": {
+      "type": "string",
+      "required": true
+    },
+    "ahp_floor_name": {
+      "type": "string",
+      "required": true
+    },
+    "ahp_ho_name": {
+      "type": "string",
+      "required": true
+    },
+    "ahp_prvuse_ar": {
+      "type": "decimal",
+      "default": 0
+    },
+    "ahp_pblntf_pc": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "ahp_last_updt_dt": {
+      "type": "date",
+      "required": true
+    }
+  }
+}

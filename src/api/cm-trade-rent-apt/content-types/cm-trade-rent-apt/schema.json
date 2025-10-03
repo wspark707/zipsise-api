@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_trade_rent_apts",
+  "info": {
+    "singularName": "cm-trade-rent-apt",
+    "pluralName": "cm-trade-rent-apts",
+    "displayName": "cm_trade_rent_apt"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "rent_apt_uniq_code": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "rent_apt_region_code": {
+      "type": "string"
+    },
+    "rent_apt_umd_name": {
+      "type": "string"
+    },
+    "rent_apt_name": {
+      "type": "string"
+    },
+    "rent_apt_jibun": {
+      "type": "string"
+    },
+    "rent_apt_use_area": {
+      "type": "string"
+    },
+    "rent_apt_deal_ymd": {
+      "type": "date"
+    },
+    "rent_apt_deposit": {
+      "type": "integer",
+      "default": 0
+    },
+    "rent_apt_monthly_rent": {
+      "type": "integer",
+      "default": 0
+    },
+    "rent_apt_floor": {
+      "type": "string"
+    },
+    "rent_apt_build_year": {
+      "type": "string"
+    },
+    "rent_apt_contract_term": {
+      "type": "string"
+    },
+    "rent_apt_contract_type": {
+      "type": "string"
+    },
+    "rent_apt_use_right": {
+      "type": "string"
+    },
+    "rent_apt_pre_deposit": {
+      "type": "string"
+    },
+    "rent_apt_pre_monthly_rent": {
+      "type": "string"
+    },
+    "rent_apt_api_called_at": {
+      "type": "datetime"
+    },
+    "rent_apt_api_result": {
+      "type": "text"
+    }
+  }
+}

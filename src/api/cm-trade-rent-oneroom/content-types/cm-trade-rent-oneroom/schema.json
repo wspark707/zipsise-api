@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_trade_rent_onerooms",
+  "info": {
+    "singularName": "cm-trade-rent-oneroom",
+    "pluralName": "cm-trade-rent-onerooms",
+    "displayName": "cm_trade_rent_oneroom"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "rent_oneroom_uniq_code": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "rent_oneroom_region_code": {
+      "type": "string"
+    },
+    "rent_oneroom_umd_name": {
+      "type": "string"
+    },
+    "rent_oneroom_house_type": {
+      "type": "string"
+    },
+    "rent_oneroom_total_floor_area": {
+      "type": "string"
+    },
+    "rent_oneroom_deal_ymd": {
+      "type": "date"
+    },
+    "rent_oneroom_deposit": {
+      "type": "integer",
+      "default": 0
+    },
+    "rent_oneroom_monthly_rent": {
+      "type": "integer",
+      "default": 0
+    },
+    "rent_oneroom_build_year": {
+      "type": "string"
+    },
+    "rent_oneroom_contract_term": {
+      "type": "string"
+    },
+    "rent_oneroom_contract_type": {
+      "type": "string"
+    },
+    "rent_oneroom_use_right": {
+      "type": "string"
+    },
+    "rent_oneroom_pre_deposit": {
+      "type": "string"
+    },
+    "rent_oneroom_pre_monthly_rent": {
+      "type": "string"
+    },
+    "rent_oneroom_api_called_at": {
+      "type": "datetime"
+    },
+    "rent_oneroom_api_result": {
+      "type": "text"
+    }
+  }
+}

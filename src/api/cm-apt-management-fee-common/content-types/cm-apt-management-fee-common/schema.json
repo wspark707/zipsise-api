@@ -1,0 +1,166 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_apt_management_fee_commons",
+  "info": {
+    "singularName": "cm-apt-management-fee-common",
+    "pluralName": "cm-apt-management-fee-commons",
+    "displayName": "cm_apt_management_fee_common"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "amc_apt_code": {
+      "type": "string",
+      "required": true
+    },
+    "amc_ym": {
+      "type": "string",
+      "required": true
+    },
+    "amc_fuel_cost": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_refair_cost": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_car_insurance": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_car_etc": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_care_item_cost": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_accounting_cost": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_hidden_cost": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_office_supply": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_book_supply": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_transport_cost": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_clothes_cost": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_edu_cost": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_clean_cost": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_guard_cost": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_disinf_cost": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_elev_cost": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_hnetw_cost": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_lref_cost1": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_lref_cost2": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_lref_cost3": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_lref_cost4": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_manage_cost": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_pay": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_sundry_cost": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_bonus": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_pension": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_accident_premium": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_employ_premium": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_national_pension": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_health_premium": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_welfare_benefit": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_elect_cost": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_tel_cost": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_postage_cost": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_taxrest_cost": {
+      "type": "integer",
+      "default": 0
+    },
+    "amc_api_called_at": {
+      "type": "datetime"
+    }
+  }
+}

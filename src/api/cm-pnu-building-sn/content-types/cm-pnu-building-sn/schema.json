@@ -1,0 +1,71 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_pnu_building_sns",
+  "info": {
+    "singularName": "cm-pnu-building-sn",
+    "pluralName": "cm-pnu-building-sns",
+    "displayName": "cm_pnu_building_sn"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bsn_pnu": {
+      "type": "string",
+      "required": true
+    },
+    "bsn_agbldg_sn": {
+      "type": "string",
+      "required": true
+    },
+    "bsn_li_code": {
+      "type": "string"
+    },
+    "bsn_li_code_name": {
+      "type": "string"
+    },
+    "bsn_mnnm_slno": {
+      "type": "string"
+    },
+    "bsn_regstr_se_code": {
+      "type": "string"
+    },
+    "bsn_regstr_se_code_name": {
+      "type": "string"
+    },
+    "bsn_buld_name": {
+      "type": "string"
+    },
+    "bsn_buld_dong_name": {
+      "type": "string",
+      "required": true
+    },
+    "bsn_buld_floor_name": {
+      "type": "string",
+      "required": true
+    },
+    "bsn_buld_ho_name": {
+      "type": "string",
+      "required": true
+    },
+    "bsn_buld_room_name": {
+      "type": "string"
+    },
+    "bsn_lda_qota_rate": {
+      "type": "string"
+    },
+    "bsn_cls_se_code": {
+      "type": "string"
+    },
+    "bsn_cls_se_code_name": {
+      "type": "string"
+    },
+    "bsn_relate_ld_emd_li_code": {
+      "type": "string"
+    },
+    "bsn_last_updt_dt": {
+      "type": "date"
+    }
+  }
+}

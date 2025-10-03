@@ -1,0 +1,101 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_pnu_land_posessions",
+  "info": {
+    "singularName": "cm-pnu-land-posession",
+    "pluralName": "cm-pnu-land-posessions",
+    "displayName": "cm_pnu_land_posession"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pss_pnu": {
+      "type": "string",
+      "required": true
+    },
+    "pss_ld_code": {
+      "type": "string"
+    },
+    "pss_ld_code_name": {
+      "type": "string"
+    },
+    "pss_regstr_se_code": {
+      "type": "string"
+    },
+    "pss_regstr_se_code_name": {
+      "type": "string"
+    },
+    "pss_mnnm_slno": {
+      "type": "string"
+    },
+    "pss_agbldg_sn": {
+      "type": "string"
+    },
+    "pss_buld_dong_name": {
+      "type": "string"
+    },
+    "pss_buld_floor_name": {
+      "type": "string"
+    },
+    "pss_buld_ho_name": {
+      "type": "string"
+    },
+    "pss_buld_room_name": {
+      "type": "string"
+    },
+    "pss_cnrs_psn_sn": {
+      "type": "string"
+    },
+    "pss_stdr_ym": {
+      "type": "string"
+    },
+    "pss_lndcgr_code": {
+      "type": "string"
+    },
+    "pss_lndcgr_code_name": {
+      "type": "string"
+    },
+    "pss_lndpcl_ar": {
+      "type": "decimal"
+    },
+    "pss_pblntf_pclnd": {
+      "type": "biginteger"
+    },
+    "pss_posesn_se_code": {
+      "type": "string"
+    },
+    "pss_posesn_se_code_name": {
+      "type": "string"
+    },
+    "pss_resdnc_se_code": {
+      "type": "string"
+    },
+    "pss_resdnc_se_code_name": {
+      "type": "string"
+    },
+    "pss_nation_instt_se_code": {
+      "type": "string"
+    },
+    "pss_nation_instt_se_code_name": {
+      "type": "string"
+    },
+    "pss_ownship_chg_cause_code": {
+      "type": "string"
+    },
+    "pss_ownship_chg_cause_code_name": {
+      "type": "string"
+    },
+    "pss_ownship_chg_de": {
+      "type": "date"
+    },
+    "pss_cnrs_psn_co": {
+      "type": "integer",
+      "default": 0
+    },
+    "pss_last_updt_dt": {
+      "type": "date"
+    }
+  }
+}

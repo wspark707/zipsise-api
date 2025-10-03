@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_pnu_individual_house_prices",
+  "info": {
+    "singularName": "cm-pnu-individual-house-price",
+    "pluralName": "cm-pnu-individual-house-prices",
+    "displayName": "cm_pnu_individual_house_price"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ihp_pnu": {
+      "type": "string",
+      "required": true
+    },
+    "ihp_ld_code": {
+      "type": "string"
+    },
+    "ihp_ld_code_name": {
+      "type": "string"
+    },
+    "ihp_regstr_se_code": {
+      "type": "string"
+    },
+    "ihp_regstr_se_code_name": {
+      "type": "string"
+    },
+    "ihp_mnnm_slno": {
+      "type": "string"
+    },
+    "ihp_bild_regstr_esntl_no": {
+      "type": "string",
+      "required": true
+    },
+    "ihp_stdr_year": {
+      "type": "string",
+      "required": true
+    },
+    "ihp_stdr_mt": {
+      "type": "string",
+      "required": true
+    },
+    "ihp_dong_code": {
+      "type": "string"
+    },
+    "ihp_lad_regstr_ar": {
+      "type": "decimal",
+      "default": 0
+    },
+    "ihp_calc_plot_ar": {
+      "type": "decimal",
+      "default": 0
+    },
+    "ihp_buld_all_tot_ar": {
+      "type": "decimal",
+      "default": 0
+    },
+    "ihp_buld_calc_tot_ar": {
+      "type": "decimal",
+      "default": 0
+    },
+    "ihp_house_pc": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "ihp_std_land_at": {
+      "type": "string"
+    },
+    "ihp_last_updt_dt": {
+      "type": "date",
+      "required": true
+    }
+  }
+}

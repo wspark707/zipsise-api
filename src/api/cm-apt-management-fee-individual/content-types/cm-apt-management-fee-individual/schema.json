@@ -1,0 +1,86 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_apt_management_fee_individuals",
+  "info": {
+    "singularName": "cm-apt-management-fee-individual",
+    "pluralName": "cm-apt-management-fee-individuals",
+    "displayName": "cm_apt_management_fee_individual"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ami_apt_code": {
+      "type": "string",
+      "required": true
+    },
+    "ami_ym": {
+      "type": "string",
+      "required": true
+    },
+    "ami_heat_c": {
+      "type": "integer",
+      "default": 0
+    },
+    "ami_heat_p": {
+      "type": "integer",
+      "default": 0
+    },
+    "ami_water_hot_c": {
+      "type": "integer",
+      "default": 0
+    },
+    "ami_water_hot_p": {
+      "type": "integer",
+      "default": 0
+    },
+    "ami_gas_c": {
+      "type": "integer",
+      "default": 0
+    },
+    "ami_gas_p": {
+      "type": "integer",
+      "default": 0
+    },
+    "ami_elect_c": {
+      "type": "integer",
+      "default": 0
+    },
+    "ami_elect_p": {
+      "type": "integer",
+      "default": 0
+    },
+    "ami_watercool_c": {
+      "type": "integer",
+      "default": 0
+    },
+    "ami_watercool_p": {
+      "type": "integer",
+      "default": 0
+    },
+    "ami_scrap": {
+      "type": "integer",
+      "default": 0
+    },
+    "ami_pre_meet": {
+      "type": "integer",
+      "default": 0
+    },
+    "ami_build_insu": {
+      "type": "integer",
+      "default": 0
+    },
+    "ami_election_mng": {
+      "type": "integer",
+      "default": 0
+    },
+    "ami_purifi": {
+      "type": "integer",
+      "default": 0
+    },
+    "ami_api_called_at": {
+      "type": "datetime"
+    }
+  }
+}

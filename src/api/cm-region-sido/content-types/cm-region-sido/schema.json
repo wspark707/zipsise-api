@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_region_sidos",
+  "info": {
+    "singularName": "cm-region-sido",
+    "pluralName": "cm-region-sidos",
+    "displayName": "cm_region_sido"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sido_code": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "sido_name": {
+      "type": "string"
+    },
+    "sido_sgg_api_called_at": {
+      "type": "datetime"
+    },
+    "sido_energy_api_called_at": {
+      "type": "datetime"
+    },
+    "sido_lsp_done_at": {
+      "type": "datetime"
+    }
+  }
+}

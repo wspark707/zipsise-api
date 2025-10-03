@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_trade_resale_apts",
+  "info": {
+    "singularName": "cm-trade-resale-apt",
+    "pluralName": "cm-trade-resale-apts",
+    "displayName": "cm_trade_resale_apt"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "resale_apt_uniq_code": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "resale_apt_region_code": {
+      "type": "string"
+    },
+    "resale_apt_umd_name": {
+      "type": "string"
+    },
+    "resale_apt_name": {
+      "type": "string"
+    },
+    "resale_apt_jibun": {
+      "type": "string"
+    },
+    "resale_apt_use_area": {
+      "type": "string"
+    },
+    "resale_apt_deal_ymd": {
+      "type": "date"
+    },
+    "resale_apt_deal_amount": {
+      "type": "integer",
+      "default": 0
+    },
+    "resale_apt_floor": {
+      "type": "string"
+    },
+    "resale_apt_cdeal": {
+      "type": "integer",
+      "default": 0
+    },
+    "resale_apt_cdeal_day": {
+      "type": "date"
+    },
+    "resale_apt_deal_type": {
+      "type": "string"
+    },
+    "resale_apt_estate_agency": {
+      "type": "string"
+    },
+    "resale_apt_seller": {
+      "type": "string"
+    },
+    "resale_apt_buyer": {
+      "type": "string"
+    },
+    "resale_apt_ownership": {
+      "type": "string"
+    },
+    "resale_apt_api_called_at": {
+      "type": "datetime"
+    },
+    "resale_apt_api_result": {
+      "type": "text"
+    }
+  }
+}

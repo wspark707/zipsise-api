@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_dongcodes",
+  "info": {
+    "singularName": "cm-dongcode",
+    "pluralName": "cm-dongcodes",
+    "displayName": "cm_dongcode"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "dong_region_cd": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "dong_sido_cd": {
+      "type": "string"
+    },
+    "dong_sgg_cd": {
+      "type": "string"
+    },
+    "dong_umd_cd": {
+      "type": "string"
+    },
+    "dong_ri_cd": {
+      "type": "string"
+    },
+    "dong_locatjumin_cd": {
+      "type": "string"
+    },
+    "dong_locatjijuk_cd": {
+      "type": "string"
+    },
+    "dong_locatadd_nm": {
+      "type": "string"
+    },
+    "dong_locat_order": {
+      "type": "integer"
+    },
+    "dong_locat_rm": {
+      "type": "string"
+    },
+    "dong_locathigh_cd": {
+      "type": "string"
+    },
+    "dong_locallow_nm": {
+      "type": "string"
+    },
+    "dong_adpt_de": {
+      "type": "string"
+    },
+    "dong_building_register_api_called_at": {
+      "type": "datetime"
+    }
+  }
+}

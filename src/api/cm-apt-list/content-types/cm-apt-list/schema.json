@@ -1,0 +1,267 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_apt_lists",
+  "info": {
+    "singularName": "cm-apt-list",
+    "pluralName": "cm-apt-lists",
+    "displayName": "cm_apt_list"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "apt_code": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "apt_name": {
+      "type": "string"
+    },
+    "apt_bjd_code": {
+      "type": "string"
+    },
+    "apt_as_1": {
+      "type": "string"
+    },
+    "apt_as_2": {
+      "type": "string"
+    },
+    "apt_as_3": {
+      "type": "string"
+    },
+    "apt_as_4": {
+      "type": "string"
+    },
+    "apt_api_called_at": {
+      "type": "datetime"
+    },
+    "apt_api_result": {
+      "type": "text"
+    },
+    "apt_addr": {
+      "type": "string"
+    },
+    "apt_code_sale_name": {
+      "type": "string"
+    },
+    "apt_code_heat_name": {
+      "type": "string"
+    },
+    "apt_t_area": {
+      "type": "string"
+    },
+    "apt_dong_cnt": {
+      "type": "integer",
+      "default": 0
+    },
+    "apt_household_cnt": {
+      "type": "integer",
+      "default": 0
+    },
+    "apt_b_company": {
+      "type": "string"
+    },
+    "apt_a_company": {
+      "type": "string"
+    },
+    "apt_tel": {
+      "type": "string"
+    },
+    "apt_fax": {
+      "type": "string"
+    },
+    "apt_url": {
+      "type": "string"
+    },
+    "apt_code_name": {
+      "type": "string"
+    },
+    "apt_doro_juso": {
+      "type": "string"
+    },
+    "apt_ho_cnt": {
+      "type": "integer"
+    },
+    "apt_code_manager_name": {
+      "type": "string"
+    },
+    "apt_code_hall_name": {
+      "type": "string"
+    },
+    "apt_use_date": {
+      "type": "string"
+    },
+    "apt_m_area": {
+      "type": "decimal",
+      "default": 0
+    },
+    "apt_m_area_60": {
+      "type": "integer",
+      "default": 0
+    },
+    "apt_m_area_85": {
+      "type": "integer",
+      "default": 0
+    },
+    "apt_m_area_135": {
+      "type": "integer",
+      "default": 0
+    },
+    "apt_m_area_136": {
+      "type": "integer",
+      "default": 0
+    },
+    "apt_private_area": {
+      "type": "decimal",
+      "default": 0
+    },
+    "apt_top_floor": {
+      "type": "integer",
+      "default": 0
+    },
+    "apt_ktown_floor": {
+      "type": "integer",
+      "default": 0
+    },
+    "apt_base_floor": {
+      "type": "integer",
+      "default": 0
+    },
+    "apt_elevator_cnt": {
+      "type": "integer",
+      "default": 0
+    },
+    "apt_zipcode": {
+      "type": "string"
+    },
+    "apt_code_manager": {
+      "type": "string"
+    },
+    "apt_manager_cnt": {
+      "type": "integer",
+      "default": 0
+    },
+    "apt_c_company": {
+      "type": "string"
+    },
+    "apt_code_security": {
+      "type": "string"
+    },
+    "apt_security_cnt": {
+      "type": "integer",
+      "default": 0
+    },
+    "apt_sec_com": {
+      "type": "string"
+    },
+    "apt_code_clean": {
+      "type": "string"
+    },
+    "apt_clean_cnt": {
+      "type": "integer",
+      "default": 0
+    },
+    "apt_code_garbage": {
+      "type": "string"
+    },
+    "apt_code_disinfection": {
+      "type": "string"
+    },
+    "apt_d_cnt": {
+      "type": "integer",
+      "default": 0
+    },
+    "apt_d_type": {
+      "type": "string"
+    },
+    "apt_building_structure": {
+      "type": "string"
+    },
+    "apt_e_capacity": {
+      "type": "string"
+    },
+    "apt_e_contract": {
+      "type": "string"
+    },
+    "apt_e_manager": {
+      "type": "string"
+    },
+    "apt_code_f_alarm": {
+      "type": "string"
+    },
+    "apt_code_w_supply": {
+      "type": "string"
+    },
+    "apt_code_elevator": {
+      "type": "string"
+    },
+    "apt_elevator_total_cnt": {
+      "type": "integer",
+      "default": 0
+    },
+    "apt_above_parking_cnt": {
+      "type": "integer",
+      "default": 0
+    },
+    "apt_under_parking_cnt": {
+      "type": "integer",
+      "default": 0
+    },
+    "apt_code_net": {
+      "type": "string"
+    },
+    "apt_cctv_cnt": {
+      "type": "integer",
+      "default": 0
+    },
+    "apt_walfare": {
+      "type": "string"
+    },
+    "apt_time_bus": {
+      "type": "string"
+    },
+    "apt_subway_line": {
+      "type": "string"
+    },
+    "apt_subway_station": {
+      "type": "string"
+    },
+    "apt_time_subway": {
+      "type": "string"
+    },
+    "apt_convenient": {
+      "type": "string"
+    },
+    "apt_education": {
+      "type": "string"
+    },
+    "apt_above_elec_charger_cnt": {
+      "type": "integer",
+      "default": 0
+    },
+    "apt_under_elec_charger_cnt": {
+      "type": "integer",
+      "default": 0
+    },
+    "apt_api_detail_called_at": {
+      "type": "datetime"
+    },
+    "apt_api_basic_result": {
+      "type": "text"
+    },
+    "apt_api_detail_result": {
+      "type": "text"
+    },
+    "apt_api_ami_called_at": {
+      "type": "datetime"
+    },
+    "apt_api_amc_called_at": {
+      "type": "datetime"
+    },
+    "apt_api_aen_called_at": {
+      "type": "datetime"
+    }
+  }
+}

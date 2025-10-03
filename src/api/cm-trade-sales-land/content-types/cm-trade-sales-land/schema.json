@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_trade_sales_lands",
+  "info": {
+    "singularName": "cm-trade-sales-land",
+    "pluralName": "cm-trade-sales-lands",
+    "displayName": "cm_trade_sales_land"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sales_land_uniq_code": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "sales_land_region_code": {
+      "type": "string"
+    },
+    "sales_land_umd_name": {
+      "type": "string"
+    },
+    "sales_land_jibun": {
+      "type": "string"
+    },
+    "sales_land_jimok": {
+      "type": "string"
+    },
+    "sales_land_use": {
+      "type": "string"
+    },
+    "sales_land_deal_ymd": {
+      "type": "date"
+    },
+    "sales_land_deal_amount": {
+      "type": "integer",
+      "default": 0
+    },
+    "sales_land_cdeal": {
+      "type": "integer",
+      "default": 0
+    },
+    "sales_land_cdeal_day": {
+      "type": "date"
+    },
+    "sales_land_deal_type": {
+      "type": "string"
+    },
+    "sales_land_estate_agency": {
+      "type": "string"
+    },
+    "sales_land_share_dealing_type": {
+      "type": "string"
+    },
+    "sales_land_api_called_at": {
+      "type": "datetime"
+    },
+    "sales_land_api_result": {
+      "type": "text"
+    }
+  }
+}

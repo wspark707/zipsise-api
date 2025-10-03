@@ -18,7 +18,11 @@
     "@strapi/plugin-cloud": "5.18.0",
     "@strapi/plugin-users-permissions": "5.18.0",
     "@strapi/strapi": "5.18.0",
+    "axios": "^1.10.0",
+    "date-fns": "^4.1.0",
+    "dayjs": "^1.11.13",
     "mysql2": "3.9.8",
+    "qs": "^6.14.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
@@ -28,6 +32,9 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "esbuild": "^0.25.6",
+    "minimatch": "^10.0.3",
+    "nodemon": "^3.1.10",
     "typescript": "^5"
   },
   "engines": {
@@ -37,5 +44,6 @@
   "strapi": {
     "uuid": "9a1bcc25-4bb8-4426-9531-e14625dea45b",
     "installId": "34844e5a6bea51b352b2064f456790d2c50b756370ee882b70fd3523e485de9d"
-  }
+  },
+  "packageManager": "yarn@4.9.2"
 }

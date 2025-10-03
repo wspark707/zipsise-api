@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_pnu_land_forests",
+  "info": {
+    "singularName": "cm-pnu-land-forest",
+    "pluralName": "cm-pnu-land-forests",
+    "displayName": "cm_pnu_land_forest"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "lfr_pnu": {
+      "type": "string",
+      "required": true
+    },
+    "lfr_ld_code": {
+      "type": "string"
+    },
+    "lfr_ld_code_name": {
+      "type": "string"
+    },
+    "lfr_mnnm_slno": {
+      "type": "string"
+    },
+    "lfr_regstr_se_code": {
+      "type": "string"
+    },
+    "lfr_regstr_se_code_name": {
+      "type": "string"
+    },
+    "lfr_lndcgr_code": {
+      "type": "string"
+    },
+    "lfr_lndcgr_code_name": {
+      "type": "string"
+    },
+    "lfr_lndpcl_ar": {
+      "type": "decimal",
+      "default": 0
+    },
+    "lfr_posesn_se_code": {
+      "type": "string"
+    },
+    "lfr_posesn_se_code_name": {
+      "type": "string"
+    },
+    "lfr_cnrs_psn_co": {
+      "type": "integer",
+      "default": 0
+    },
+    "lfr_lad_frtl_sc": {
+      "type": "string",
+      "required": true
+    },
+    "lfr_lad_frtl_sc_name": {
+      "type": "string"
+    },
+    "lfr_last_updt_dt": {
+      "type": "date"
+    }
+  }
+}

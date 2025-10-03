@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_pnu_land_uses",
+  "info": {
+    "singularName": "cm-pnu-land-use",
+    "pluralName": "cm-pnu-land-uses",
+    "displayName": "cm_pnu_land_use"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "lus_pnu": {
+      "type": "string",
+      "required": true
+    },
+    "lus_ld_code": {
+      "type": "string"
+    },
+    "lus_ld_code_name": {
+      "type": "string"
+    },
+    "lus_regstr_se_code": {
+      "type": "string"
+    },
+    "lus_regstr_se_code_name": {
+      "type": "string"
+    },
+    "lus_mnnm_slno": {
+      "type": "string"
+    },
+    "lus_manage_no": {
+      "type": "string",
+      "required": true
+    },
+    "lus_cnflc_at": {
+      "type": "string"
+    },
+    "lus_cnflc_at_name": {
+      "type": "string"
+    },
+    "lus_prpos_area_dstrc_code": {
+      "type": "string"
+    },
+    "lus_prpos_area_dstrc_code_name": {
+      "type": "string"
+    },
+    "lus_regist_dt": {
+      "type": "date"
+    },
+    "lus_last_updt_dt": {
+      "type": "date"
+    }
+  }
+}

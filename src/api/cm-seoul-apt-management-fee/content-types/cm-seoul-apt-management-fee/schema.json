@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_seoul_apt_management_fees",
+  "info": {
+    "singularName": "cm-seoul-apt-management-fee",
+    "pluralName": "cm-seoul-apt-management-fees",
+    "displayName": "cm_seoul_apt_management_fee"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "amf_apt_code": {
+      "type": "string",
+      "required": true
+    },
+    "amf_apt_ym": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "amf_apt_name": {
+      "type": "string"
+    },
+    "amf_apt_management_name": {
+      "type": "string",
+      "required": true
+    },
+    "amf_apt_amount": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

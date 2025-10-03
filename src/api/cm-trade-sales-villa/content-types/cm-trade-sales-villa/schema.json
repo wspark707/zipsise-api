@@ -1,0 +1,85 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_trade_sales_villas",
+  "info": {
+    "singularName": "cm-trade-sales-villa",
+    "pluralName": "cm-trade-sales-villas",
+    "displayName": "cm_trade_sales_villa"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sales_villa_uniq_code": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "sales_villa_region_code": {
+      "type": "string"
+    },
+    "sales_villa_umd_name": {
+      "type": "string"
+    },
+    "sales_villa_name": {
+      "type": "string"
+    },
+    "sales_villa_jibun": {
+      "type": "string"
+    },
+    "sales_villa_use_area": {
+      "type": "string"
+    },
+    "sales_villa_deal_ymd": {
+      "type": "date"
+    },
+    "sales_villa_deal_amount": {
+      "type": "integer",
+      "default": 0
+    },
+    "sales_villa_floor": {
+      "type": "string"
+    },
+    "sales_villa_build_year": {
+      "type": "string"
+    },
+    "sales_villa_cdeal": {
+      "type": "integer",
+      "default": 0
+    },
+    "sales_villa_cdeal_day": {
+      "type": "date"
+    },
+    "sales_villa_deal_type": {
+      "type": "string"
+    },
+    "sales_villa_estate_agency": {
+      "type": "string"
+    },
+    "sales_villa_regist_date": {
+      "type": "date"
+    },
+    "sales_villa_dong": {
+      "type": "string"
+    },
+    "sales_villa_seller": {
+      "type": "string"
+    },
+    "sales_villa_buyer": {
+      "type": "string"
+    },
+    "sales_villa_house_type": {
+      "type": "string"
+    },
+    "sales_villa_land_area": {
+      "type": "string"
+    },
+    "sales_villa_api_called_at": {
+      "type": "datetime"
+    },
+    "sales_villa_api_result": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_dongcode_groups",
+  "info": {
+    "singularName": "cm-dongcode-group",
+    "pluralName": "cm-dongcode-groups",
+    "displayName": "cm_dongcode_group"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "dg_code": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "api_rental_house_called_at": {
+      "type": "datetime"
+    }
+  }
+}

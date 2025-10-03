@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_region_rees",
+  "info": {
+    "singularName": "cm-region-ree",
+    "pluralName": "cm-region-rees",
+    "displayName": "cm_region_ree"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ree_code": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "ree_name": {
+      "type": "string"
+    },
+    "umd_code": {
+      "type": "string"
+    },
+    "sgg_code": {
+      "type": "string"
+    },
+    "sido_code": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_building_registers",
+  "info": {
+    "singularName": "cm-building-register",
+    "pluralName": "cm-building-registers",
+    "displayName": "cm_building_register"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "register_id": { "type": "string", "required": true, "unique": true },
+    "reg_building_name": { "type": "string" },
+    "reg_sigungu_code":  { "type": "string" },
+    "reg_bjdong_code":   { "type": "string" },
+    "type1_json": { "type": "json" },
+    "type2_json": { "type": "json" },
+    "type3_json": { "type": "json" },
+    "type4_json": { "type": "json" },
+    "type5_json": { "type": "json" },
+    "type6_json": { "type": "json" },
+    "type7_json": { "type": "json" },
+    "type8_json": { "type": "json" },
+    "type9_json": { "type": "json" }
+  }
+}

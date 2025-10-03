@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_pnu_individual_land_prices",
+  "info": {
+    "singularName": "cm-pnu-individual-land-price",
+    "pluralName": "cm-pnu-individual-land-prices",
+    "displayName": "cm_pnu_individual_land_price"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ilp_pnu": {
+      "type": "string",
+      "required": true
+    },
+    "ilp_ld_code": {
+      "type": "string"
+    },
+    "ilp_ld_code_name": {
+      "type": "string"
+    },
+    "ilp_regstr_se_code": {
+      "type": "string"
+    },
+    "ilp_regstr_se_code_name": {
+      "type": "string"
+    },
+    "ilp_mnnm_slno": {
+      "type": "string"
+    },
+    "ilp_stdr_year": {
+      "type": "string",
+      "required": true
+    },
+    "ilp_stdr_mt": {
+      "type": "string",
+      "required": true
+    },
+    "ilp_pblntf_pclnd": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "ilp_pblntf_de": {
+      "type": "date"
+    },
+    "ilp_std_land_at": {
+      "type": "string"
+    },
+    "ilp_last_updt_dt": {
+      "type": "date",
+      "required": true
+    }
+  }
+}

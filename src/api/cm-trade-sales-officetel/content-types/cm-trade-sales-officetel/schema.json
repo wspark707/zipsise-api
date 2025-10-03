@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_trade_sales_officetels",
+  "info": {
+    "singularName": "cm-trade-sales-officetel",
+    "pluralName": "cm-trade-sales-officetels",
+    "displayName": "cm_trade_sales_officetel"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sales_officetel_uniq_code": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "sales_officetel_region_code": {
+      "type": "string"
+    },
+    "sales_officetel_umd_name": {
+      "type": "string"
+    },
+    "sales_officetel_name": {
+      "type": "string"
+    },
+    "sales_officetel_jibun": {
+      "type": "string"
+    },
+    "sales_officetel_use_area": {
+      "type": "string"
+    },
+    "sales_officetel_deal_ymd": {
+      "type": "date"
+    },
+    "sales_officetel_deal_amount": {
+      "type": "integer",
+      "default": 0
+    },
+    "sales_officetel_floor": {
+      "type": "string"
+    },
+    "sales_officetel_build_year": {
+      "type": "string"
+    },
+    "sales_officetel_cdeal": {
+      "type": "integer",
+      "default": 0
+    },
+    "sales_officetel_cdeal_day": {
+      "type": "date"
+    },
+    "sales_officetel_deal_type": {
+      "type": "string"
+    },
+    "sales_officetel_estate_agency": {
+      "type": "string"
+    },
+    "sales_officetel_seller": {
+      "type": "string"
+    },
+    "sales_officetel_buyer": {
+      "type": "string"
+    },
+    "sales_officetel_api_called_at": {
+      "type": "datetime"
+    },
+    "sales_officetel_api_result": {
+      "type": "text"
+    }
+  }
+}

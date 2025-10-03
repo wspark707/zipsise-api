@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_region_umds",
+  "info": {
+    "singularName": "cm-region-umd",
+    "pluralName": "cm-region-umds",
+    "displayName": "cm_region_umd"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "umd_code": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "umd_name": {
+      "type": "string"
+    },
+    "sgg_code": {
+      "type": "string"
+    },
+    "sido_code": {
+      "type": "string"
+    },
+    "umd_ree_api_called_at": {
+      "type": "datetime"
+    }
+  }
+}

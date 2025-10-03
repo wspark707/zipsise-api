@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_pnu_land_moves",
+  "info": {
+    "singularName": "cm-pnu-land-move",
+    "pluralName": "cm-pnu-land-moves",
+    "displayName": "cm_pnu_land_move"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "lmv_pnu": {
+      "type": "string",
+      "required": true
+    },
+    "lmv_ld_code": {
+      "type": "string"
+    },
+    "lmv_ld_code_name": {
+      "type": "string"
+    },
+    "lmv_regstr_se_code": {
+      "type": "string"
+    },
+    "lmv_regstr_se_code_name": {
+      "type": "string"
+    },
+    "lmv_mnnm_slno": {
+      "type": "string"
+    },
+    "lmv_lad_mvmn_hist_sn": {
+      "type": "string",
+      "required": true
+    },
+    "lmv_cls_sn": {
+      "type": "string"
+    },
+    "lmv_lndcgr_code": {
+      "type": "string"
+    },
+    "lmv_lndcgr_code_name": {
+      "type": "string"
+    },
+    "lmv_lndpcl_ar": {
+      "type": "decimal",
+      "default": 0
+    },
+    "lmv_lad_mvmn_prvonsh_code": {
+      "type": "string"
+    },
+    "lmv_lad_mvmn_prvonsh_code_name": {
+      "type": "string"
+    },
+    "lmv_lad_mvmn_de": {
+      "type": "date"
+    },
+    "lmv_lad_mvmn_ersr_de": {
+      "type": "date"
+    },
+    "lmv_lad_hist_sn": {
+      "type": "string",
+      "required": true
+    },
+    "lmv_last_updt_dt": {
+      "type": "date"
+    }
+  }
+}
